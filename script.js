@@ -9,7 +9,8 @@ $(document).ready(function() {
     event.preventDefault();
 
     var item = $("#todo-list-item").val();
-
+var salasana;
+salasana = coding;
     if (item) {
       $("#list-items").append(
         "<li><input class='checkbox' type='checkbox' />" +
