@@ -9,7 +9,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     var item = $("#todo-list-item").val();
-var pass1997 = x = ("coding");
+x = ("coding");
     if (item) {
       $("#list-items").append(
         "<li><input class='checkbox' type='checkbox' />" +
