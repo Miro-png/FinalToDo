@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   passWord("coding");
+   passWord();
      //this prevents the program from moving on until the correct
   //password has been entered
    // I dont get it to work otherwise, i'm sorry artmem :(
