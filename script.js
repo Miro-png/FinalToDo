@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   <SCRIPT>
+
 function passWord() {
 var testV = 1;
 var pass1 = prompt('Please Enter Your Password',' ');
@@ -19,10 +19,7 @@ if (pass1.toLowerCase()!="password" & testV ==3)
 history.go(-1);
 return " ";
 } 
-</SCRIPT>
-<CENTER>
-<FORM>
-   passWord();
+  passWord();
      //this prevents the program from moving on until the correct
   //password has been entered
    // I dont get it to work otherwise, i'm sorry artmem :(
