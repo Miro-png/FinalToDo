@@ -1,5 +1,8 @@
 $(document).ready(function() {
    passWord();
+     //this prevents the program from moving on until the correct
+  //password has been entered
+   // I dont get it to work otherwise, i'm sorry artmem :(
   $("#list-items").html(localStorage.getItem("listItems"));
 
   $(".add-items").submit(function(event) {
