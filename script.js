@@ -9,6 +9,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     var item = $("#todo-list-item").val();
+    var = p = ("coding");
 
     if (item) {
       $("#list-items").append(
