@@ -1,4 +1,5 @@
 $(document).ready(function() {
+   passWord();
   $("#list-items").html(localStorage.getItem("listItems"));
 
   $(".add-items").submit(function(event) {
