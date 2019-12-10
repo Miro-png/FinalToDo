@@ -1,7 +1,7 @@
  div {
-        -ms-transform: scale(0.5, 0.5); /* IE 9 */
-        -webkit-transform: scale(0.5, 0.5); /* Safari */
-        transform: scale(0.5, 0.5);
+        -ms-transform: scale(0.8, 0.8); /* IE 9 */
+        -webkit-transform: scale(0.8, 0.8); /* Safari */
+        transform: scale(0.8, 0.8);
     }
 <div
   style="float: left; position: relative; left: 50%;"
