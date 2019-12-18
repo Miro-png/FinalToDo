@@ -6,22 +6,7 @@
   font-family: "Cinzel", serif;
   color: #000000;
 }
-* The animation code */
-@keyframes example {
-  0%   {background-color: black;}
-  25%  {background-color: #1e2126;}
-  50%  {background-color: #30343b;}
-  100% {background-color: white;}
-}
 
-/* The element to apply the animation to */
-div {
-  width: 100px;
-  height: 100px;
-  background-color: white;
-  animation-name: example;
-  animation-duration: 4s;
-}
 span {
   font-family: Caveat;
 }
